@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.">
+    <title>Contact Us</title>
+</head>
+<body>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        body,*{
+  margin: 0;
+  padding:0 ;
+  box-sizing: border-box;
+        }
+  body{
+    font-family: Inter;
+    overflow-x: hidden;
+    background-color: 
+#fbfbfbdb;
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    scroll-behavior: smooth;
+  }
+        .logo{
+            color: #F6AF03;
+            font-family: Inter;
+font-size: 24px;
+font-weight: 800;
+line-height: 29.05px;
+text-align: left;
+margin-left: 45px;
+
+        }
+        span{
+color: black;
+margin-left: -3px;
+    margin-bottom: 2px;
+    height: auto;
+    
+        }
+
+ header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    padding-top : 20px;
+ }
+
+ nav{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-right: 40px;
+ }
+ .images{
+    width: 31px;
+    height: 31px;
+    border-radius: 50%;
+    align-items: center;
+    border: 1px solid #011c2b7a;
+  
+    
+ }
+
+ .images img{
+    margin-right: 50px;
+    margin-block: 7px;
+    margin-left: 7px;
+    animation: image 7s infinite;
+    
+ }
+
+ @keyframes image{
+    0%{
+        transform: skew(0deg, 0deg);
+    }
+
+    50%{
+        transform: skew(5deg, 5deg);
+    }
+
+    100%{
+        transform: skew(0deg, 0deg); 
+    }
+ }
+ .f a{
+    align-items: center;
+    font-weight: 500;
+    text-decoration: solid;
+    color: black;
+ }
+ 
+.f{
+    align-items: center;
+}
+.f :hover{
+   background-color: #F6AF03;
+   color: #fff;
+   border-radius: 8px;
+   padding: 7px;
+}
+
+ .c a{
+    color: #F6AF03;
+    font-weight: 500;
+    text-decoration: solid;
+ }
+ .c a:hover{
+    color: black;
+ }
+
+ .h a{
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+ }
+ .h a:hover{
+    color: #F6AF03;
+ }
+
+ .texts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 60px;
+ }
+
+ .sub{
+    font-weight: 900;
+    font-family: Poppins;
+    color: #F6AF03;
+    font-size: 30px;
+ }
+
+ .two{
+    color: #717171;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    animation: change 5s ease-in-out infinite;
+ }
+
+ @keyframes change{
+
+    0% {
+        color: #717171;
+
+    }
+
+    25%{
+        color: #011C2B;
+    }
+  50%{
+    color: #F6AF03;
+    transform: translateY(50px);
+  }
+    100%{
+        color: #717171;
+    }
+ }
+ .container{
+    width: 80%;
+    height: 80vh ;
+    padding: 20px;
+    display: flex;
+    background-color: #fff;
+    border-radius: 8px;
+    color: #fff;
+    margin-left: 129px;
+    margin-top: 64px;
+    overflow-y: hidden;
+ }
+
+ .one{
+    width: 36%;
+    border-radius: 8px;
+    background-color: #011C2B;
+    font-family: Poppins;
+    padding: 30px;
+
+ }
+
+ 
+
+ .circle{
+    width: 134px;
+    height: 134px;
+    margin: -46px;
+    background-color: #FFF9F9;
+    opacity: 0.1;
+    border-radius: 50%;
+    overflow-y: hidden;
+    animation: move 10s linear infinite; /* Apply animation */
+}
+@keyframes move {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(200px); /* Adjust the distance as needed */
+  }
+  50%{
+    transform : translate(150px, 100px)
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+ .say{
+    color: #C9C9C9;
+    margin-bottom: 50px;
+ }
+ .ci{
+    font-size: 24px;
+ }
+
+ .flex{
+    display: flex;
+    margin-bottom: 50px;
+    gap: 40px;
+ }
+
+ .flex img{
+    width: 19px;
+    height: 19px;
+ }
+
+ .num{
+    margin-right: 30px;
+ }
+
+ .flexer{
+    display: flex;
+    gap: 30px;
+    margin-top: 130px;
+    
+ }
+
+ .flexer img{
+    cursor: pointer;
+ }
+
+ .circleone{
+    width: 184px;
+    height: 184px;
+    border-radius: 50%;
+    background-color: #FFF9F9;
+    opacity: 0.1;
+    margin-top: -240px;
+    overflow-y: hidden;
+    animation: up 13s linear infinite ;
+ }
+    @keyframes up {
+  0% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translate(300px, 200px); /* Adjust the distance as needed */
+  }
+  50%{
+    transform: translateX(200px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+ .bxtwo{
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    justify-content: right;
+    width: 56%;
+    font-family: Poppins;
+    padding-top: 10px;
+    margin-left: 30px;
+ }
+ .fn{
+    color: #8D8D8D;
+ }
+
+ .ln{
+    color: #011C2B;
+ }
+ input{
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    width: 43vh;
+    border-bottom: 1px solid #8D8D8D;
+    height: 10vh;
+    outline: none;
+    border-top :0px;
+    color: black;
+ }
+ .column{
+    display: flex;
+    gap: 30px;
+    padding-top: 40px;
+ }
+ input::placeholder{
+    color:  #8D8D8D;
+    font-size: 14px
+;
+ }
+ .select{
+    color: #011C2a;
+    font-family: Poppins;
+font-size: 14px;
+font-weight: 600;
+line-height: 20px;
+text-align: left;
+padding-top: 20px;
+ }
+
+ .general{
+    color: #011C2a;
+    font-family: Poppins;
+    font-size: 14px;
+font-weight: 600;
+line-height: 20px;
+text-align: left;
+align-items: center;
+display: flex;
+gap: 10px;
+ }
+ .row{
+    display: flex;
+    gap: 30px;
+    padding-top: 30px;
+ }
+
+ .circletwo{
+    background-color: #E0E0E0;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+ }
+ .mess{
+    padding-top: 10px;
+    color: #8D8D8D;
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+ }
+ textarea{
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+   
+ }
+
+ textarea::placeholder{
+    padding-top: 50px;
+ }
+
+ .end{
+   display: flex;
+   align-items: end;
+   justify-content: end;
+   margin-top: 30px;
+  
+ }
+
+ button{
+    background-color: transparent;
+    background-color: #011C2a;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    color: #fff;
+    font-family: Poppins;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    width: 30%;
+    cursor: pointer;
+ }
+    </style>
+    <header>
+        <div class="logo">
+            Logo <span>Here</span>
+        </div>
+        <nav>
+            <div class="h">
+                <a href="">Home</a>
+            </div>
+            <div class="f">
+                <a href="">Features</a> <span><img src="jaiz/Arrow 1.png" alt="dropdown"></span>
+            </div>
+            <div class="h">
+                <a href="">Blog</a>
+            </div>
+            <div class="h">
+                <a href="">Shop</a>
+            </div>
+            <div class="h">
+                <a href="">About</a>
+            </div>
+            <div class="c">
+                <a href="">Contact</a>
+            </div>
+
+            <div class="images">
+                <img src="standard_chartered/Mask group.png" alt="cart">
+            </div>
+            <div class="images">
+                <img src="standard_chartered/bi_cart.png" alt="person">
+            </div>
+        </nav>
+    </header>
+
+    <div class="texts">
+       <div class="sub"> Contact Us</div>
+       <div class="two">Any question or remarks? Just write us a message!</div>
+    </div>
+    <div id="bx">
+
+    </div>
+
+    <div class="container">
+        <div class="one">
+            <div class="ci">
+                Contact Information
+            </div>
+            <div class="say">
+                Say something to start a live chat!
+            </div>
+            <div class="flex">
+                <img src="stanbic_ibtc/bxs_phone-call.png" alt="telephone icon">
+                <div class="num">+1012 3456 789</div>
+            </div>
+            <div class="flex">
+                <img src="standard_chartered/Vector (4).png" alt="telephone icon">
+                <div class="num">demo@gmail.com</div>
+            </div>
+            <div class="flex">
+                <img src="standard_chartered/carbon_location-filled.png" alt="telephone icon">
+                <div class="num">132 Dartmouth Street Boston, Massachusetts 02156 United States</div>
+            </div>
+            <div class="flexer">
+                <img src="standard_chartered/Group 1000001749.png" alt="Twitter logo">
+                <img src="standard_chartered/Group 1000001750.png" alt="Instagram Logo">
+                <img src="standard_chartered/Group 1000001751.png" alt="">
+            </div>
+            <div class="circleone">
+
+            </div>
+            <div class="circle">
+                
+            </div>
+          
+        </div>
+        <div class="bxtwo">
+           <div class="column">
+            <div class="input">
+        
+                <input type="text" placeholder="First Name" id="fn" readonly>
+            </div>
+
+            <div class="input">
+            
+                <input type="text" placeholder=" Last Name" id="ln" readonly  >
+            </div>
+           </div>
+           <div class="column">
+            <div class="input">
+                <input type="text" placeholder="Email" id="mail" oninput="autofil()">
+            </div>
+
+            <div class="input">
+                
+                <input type="text" placeholder="+1012 3456 789" id="num" readonly >
+            </div>
+           </div>
+           <div class="select">
+            Select Subject?
+           </div>
+         <div class="row">
+            <div class="general">
+                <img src="polaris/Vector (6).png" alt="">
+              General Inquiry
+              </div>
+              <div class="general">
+                <div class="circletwo">
+
+                </div>
+              General Inquiry
+              </div>
+              <div class="general">
+                <div class="circletwo">
+
+                </div>
+              General Inquiry
+              </div>
+              <div class="general">
+                <div class="circletwo">
+
+                </div>
+              General Inquiry
+              </div>
+         </div>
+         
+        <div class="mess">
+            Message
+            <textarea name="" id="" cols="30" rows="10" placeholder="Write your message..."></textarea>
+        </div>
+        
+        <div class="end">
+            <button onclick="holder()">Send Message</button>
+        </div>
+        </div>
+
+      
+    </div>
+    
+    <script>
+        let myuserarray = ''
+
+let details = [
+
+]
+
+
+ myuserarray =  localStorage.getItem('User details');
+
+if (myuserarray) {
+    details = JSON.parse(myuserarray);
+} 
+
+
+
+        function holder(){
+   const fname = document.getElementById('fn').value
+   const lname = document.getElementById('ln').value
+   const mail = document.getElementById('mail').value
+   const num = document.getElementById('num').value
+
+  const newevent ={
+    fname : fname,
+    lname : lname,
+    mail : mail,
+    num : num
+
+  }
+   details.push(newevent)
+   const usersString = JSON.stringify(details);
+  localStorage.setItem('User details', usersString);
+   showdata()
+   //autofil()
+   
+    }
+
+    function showdata(){
+    const show = document.getElementById('bx')
+    const move = details.map(function(detail){
+        return  `<div class=""> 
+    <h2> ${detail.fname}  </h2>
+    <p>${detail.lname}  </p>
+        <p> ${detail.mail}  </p>
+            <p>   ${detail.num}  </p>
+       
+         </div>` 
+    })
+
+        const mlist = move.join("");
+
+
+        show.innerHTML = mlist;
+        }
+        function autofil(){
+            console.log('typing')
+            const mailvalue = document.getElementById('mail').value;
+            const find = details.find(detail => detail.mail === mailvalue)
+
+
+
+
+
+            if (find) {
+                var confirmation = confirm(`Are You ${find.fname}?, and do you want to auto fill your details`)
+                if(confirmation){
+                    document.getElementById('fn').value = find.fname;
+                document.getElementById('ln').value = find.lname;
+                document.getElementById('num').value = find.num
+                }
+                else {
+                console.log('No matching detail found');
+            }
+        
+            } 
+        }
+    
+    </script>
+</body>
+</html>
+
